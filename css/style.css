@@ -20,3 +20,18 @@ main {
 .text-muted {
   margin: 20px 0;
 }
+a {
+  color: inherit;
+}
+
+a:active {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
