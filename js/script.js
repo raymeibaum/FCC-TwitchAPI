@@ -4,20 +4,6 @@ $(function() {
   var $tile;
   var clientID = 'tusy1stb4aocl7xa25g3rxje9bcw45';
 
-  $.get({
-   url: 'https://api.twitch.tv/kraken/streams/ESL_SC2',
-   headers: {
-     'Client-ID': clientID
-   },
-   success: function(twitch) {
-
-   }
-  });
-
-
-
-
-
 
   $.each(twitchUsers, function(index, user) {
     $.get({
@@ -36,5 +22,5 @@ $(function() {
        $results.append($tile);
      }
     });
-  });
+  })
 })
